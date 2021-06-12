@@ -32,13 +32,13 @@ Peran utama Mahasiswa dalam SIYANMA adalah untuk mengajukan layanan akademik ses
 
 Berikut ini adalah detail panduan penggunaan untuk layanan-layanan di atas.
 
-Layanan akademik tingkat fakultas
+
+SKPI
 ----------------------------------
 
-1.SKPI
-~~~~~~~~~~~~~~
+Cara mengajukan SKPI
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Cara mengajukan SKPI**
 
 
  1. Mahasiswa melakukan proses otentikasi melalui halaman Login. Gunakan NPM dan PIN CBIS anda sebagai nama pengguna dan kata sandi pada saat Login.
@@ -67,7 +67,7 @@ Layanan akademik tingkat fakultas
     :alt: gambar 1. formulir SKPI
 
 
- 6. Tekan tombol :code:`Ajukan` untuk mengirim/mensubmit pengajuan SKPI.
+ 6. Tekan tombol :code:`Ajukan` untuk mengirim/mensubmit pengajuan SKPI. Tunggu sampai proses loading pengiriman selesai.
  8. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
 
   
@@ -76,7 +76,8 @@ Layanan akademik tingkat fakultas
      :alt: gambar 1. notifikasi error pada saat pengajuan SKPI
 
 
- 7. Jika data isian telah sesuai, sistem akan memberikan informasi bahwa pengajuan SKPI berhasil dilakukan. Pengajuan SKPI yang berhasil dibuat akan berubah statusnya menjadi :code:`Menunggu staff jurusan` .
+ 7. Jika data isian telah sesuai, sistem akan memberikan informasi bahwa pengajuan SKPI berhasil dilakukan. Pengajuan SKPI yang berhasil dibuat akan berubah statusnya menjadi :code:`Menunggu staff jurusan`. Status pengajuan SKPI dapat dilihat pada kolom status pengajuan.
+
 
   
   .. figure:: images/skpi-ok.png
@@ -103,12 +104,48 @@ Layanan akademik tingkat fakultas
     Setelah pengajuan SKPI disetujui, selanjutnya Mahasiswa dapat mengambil dokumen SKPI dengan datang langsung ke Fakultas.
  
 
+Merevisi pengajuan SKPI
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-2.SKL
-~~~~~~~~~~~~~~
+
+ 1. Klik tanda :code:`...` pada kolom opsi pada baris pengajuan SKPI yang ingin direvisi. Selanjutnya akan muncul 3 pilihan sub menu yaitu Details, Edit dan Hapus.   
+
+  
+  .. figure:: images/skpi-opsi.png
+     :width: 600
+     :alt: gambar 1. Opsi menu pada pengajuan SKPI
 
 
-**1. Cara Mengajukan SKL**
+ 2. Jika status pengajuan masih :code:`Menunggu` , pilih :code:`Edit` untuk langsung mengedit data pengajuan SKPI. 
+ 3. Jika status pengajuan :code:`Ditolak`, tekan :code:`Details` untuk melihat details data. Perhatikan pada bagian **alasan penolakan**. Alasan penolakan biasanya berisi petunjuk mengapa pengajuan SKPI Anda ditolak. Selanjutnya pada halaman details ini tekan tombol Edit untuk mengedit data.
+
+  
+  .. figure:: images/skpi-details.png
+     :width: 600
+     :alt: gambar 1. halaman details SKPI
+
+
+ 4. Perbarui data pada kolom isian yang ingin direvisi.  
+ 5. Tekan tombol menu :code:`Ajukan` untuk kembali mengirimkan pengajaun SKPI yang sudah direvisi.
+
+
+
+
+Surat Keterangan Lulus (SKL)
+----------------------------------
+
+Berikut adalah alur pengajuan SKL
+
+  
+  .. figure:: images/skl-alur.png
+     :width: 600
+     :alt: gambar 1. halaman daftar skl
+
+
+
+
+Cara Mengajukan SKL
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
  1. Pilih menu :code:`SKL`. Sistem akan mengarahkan ke halaman daftar pengajuan SKL.
@@ -118,165 +155,375 @@ Layanan akademik tingkat fakultas
      :alt: gambar 1. halaman daftar skl
 
 
- 5. Tekan tombol :code:`Pengajuan SKL` untuk melakukan pendaftaran SKL. Selanjutnya sistem akan mengarahkan ke halaman formulir SKL. Lengkapi semua kolom isian yang ada. 
+ 2. Tekan tombol :code:`Pengajuan SKL` untuk melakukan pendaftaran SKL. Selanjutnya sistem akan mengarahkan ke halaman formulir SKL. Lengkapi semua kolom isian yang ada. 
 
   .. figure:: images/form-skl.png
      :width: 600
      :alt: gambar 1. halaman formulir skl
 
 
- 6. Tekan tombol :code:`Ajukan` untuk mengirim/mensubmit pengajuan SKL.
- 7. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+ 3. Tekan tombol :code:`Ajukan` untuk mengirim/mensubmit pengajuan SKL. Tunggu sampai proses loading pengiriman selesai.
+ 4. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
 
   
   .. figure:: images/skl-error.png
      :width: 600
-     :alt: gambar 1. halaman login
+     :alt: gambar 1. notifikasi error pada saat pengajuan skl
 
- 8. Jika data isian telah sesuai, sistem akan memberikan informasi bahwa pengajuan SKL berhasil dilakukan. Pengajuan SKL yang berhasil dikirimkan akan berganti status menjadi :code:`Menunggu`.
+ 5. Jika data isian telah sesuai, sistem akan memberikan informasi bahwa pengajuan SKL berhasil dilakukan. Pengajuan SKL yang berhasil dikirimkan akan berganti status menjadi :code:`Menunggu` sampai proses verifikasi selesai.
 
  
- .. figure:: images/akun-ok.png
+ .. figure:: images/skl-ok.png
     :width: 600
-    :alt: gambar 1. halaman login
+    :alt: gambar 1. notifikasi sukses pada saat pengajuan skl
 
 
-  Dalam pengajuan SKL terdapat 3 jenis status pengajuan, yaitu:
+ Dalam pengajuan SKL terdapat 3 jenis status pengajuan, yaitu:
 
-  **Menunggu.**
-  Pengajuan dengan status :code:`Menunggu` berarti pengajuan SKL masih ada dalam tahap verifikasi data oleh pihak Fakultas (Wakil Dekan Bidang Akademik.
-
-
-  **Ditolak.**
-  Pengajuan dengan status :code:`Ditolak` berarti pengajuan SKL tidak disetujui. Setiap penolakan terhadap layanan yang diajukan Mahasiswa harus menyertakan **Alasan Penolakan**. Mahasiswa dapat melihat alasan penolakan pada detail pengajuan SKL. Selanjutnya jika diperlukan, Mahasiswa dapat merevisi/mengedit ulang pengajuan SKL untuk kembali diajukan ke pihak Fakultas.
+ **Menunggu.**
+ Pengajuan dengan status :code:`Menunggu` berarti pengajuan SKL masih ada dalam tahap verifikasi data oleh pihak Fakultas (Wakil Dekan Bidang Akademik.
 
 
-  **Diterima.**
-  Pengajuan dengan status :code:`Diterima` berarti pengajuan SKL telah disetujui. Selanjutnya Mahasiswa dapat mendownload dan mencetak secara mandiri dokumen SKL melalui halaman detail.
+ **Ditolak.**
+ Pengajuan dengan status :code:`Ditolak` berarti pengajuan SKL tidak disetujui. Setiap penolakan terhadap layanan yang diajukan Mahasiswa harus menyertakan :code:`Alasan Penolakan` . Mahasiswa dapat melihat alasan penolakan pada detail pengajuan SKL. Selanjutnya jika diperlukan, Mahasiswa dapat merevisi/mengedit ulang pengajuan SKL untuk kembali diajukan ke pihak Fakultas.
+
+
+ **Diterima.**
+ Pengajuan dengan status :code:`Diterima` berarti pengajuan SKL telah disetujui. Selanjutnya Mahasiswa dapat mendownload dan mencetak secara mandiri dokumen SKL melalui halaman detail.
 
 
 .. note::
-    Sebagai salah satu syarat diterimanya pengajuan SKL adalah Mahasiswa harus sudah mendapa persetujuan untuk pengajuan SKPI dan juga bukti yudisium.
+    Sebagai salah satu syarat diterimanya pengajuan SKL adalah Mahasiswa harus sudah mendapat persetujuan untuk pengajuan SKPI dan juga bukti yudisium.
+
+
+Merevisi pengajuan SKL
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+ 1. Klik tanda :code:`...` pada kolom opsi pada baris pengajuan SKL yang ingin direvisi. Selanjutnya akan muncul 3 pilihan sub menu yaitu Details, Edit dan Hapus.   
+
+  
+  .. figure:: images/skl-opsi.png
+     :width: 600
+     :alt: gambar 1. Opsi menu pada pengajuan SKL
+
+
+ 2. Jika status pengajuan masih :code:`Menunggu` , pilih :code:`Edit` untuk langsung mengedit data pengajuan SKL. 
+ 3. Jika status pengajuan :code:`Ditolak`, tekan :code:`Details` untuk melihat details data. Perhatikan pada bagian :code:`alasan penolakan` . Alasan penolakan biasanya berisi petunjuk mengapa pengajuan SKL Anda ditolak. Selanjutnya pada halaman details ini tekan tombol Edit untuk mengedit data.
+
+  
+ .. figure:: images/skl-details.png
+     :width: 600
+     :alt: gambar 1. halaman details SKL
+
+
+ 4. Perbarui data pada kolom isian yang ingin direvisi.  
+ 5. Tekan tombol menu :code:`Ajukan` untuk kembali mengirimkan pengajaun SKL yang sudah direvisi.
+
+
+
+Permohonan Cuti dan Pemulihan Status
+--------------------------------------
+
+
+Secara garis besar, cara mengajukan permohonan cuti dan pemulihan status hampir serupa dengan pengajuan SKL. Mahasiswa mengajukan permohonan layanan dengan mengisi formulir secara online, untuk selanjutnya data pengajuan diverifikasi oleh pihak Fakultas (Wakil Dekan Bidang Akademik). Selanjutnya jika pengajuan layanan disetujui, Mahasiswa dapat mengunduh surat keterangan cuti dan pemulihan status melalui halaman detail pada menu permohonan cuti dan pemulihan status.
+
+
+Berikut adalah alur pengajuan permohonan cuti 
+
+  
+  .. figure:: images/cuti-alur.png
+     :width: 600
+     :alt: gambar 1. halaman daftar skl
+
+
+
+Berikut adalah halaman formulir permohonan cuti 
+
+
+ .. figure:: images/form-cuti.png
+     :width: 600
+     :alt: gambar 1. halaman details SKL
+
+
+Berikut adalah alur pengajuan pemulihan status 
+
+  
+  .. figure:: images/pemulihan-alur.png
+     :width: 600
+     :alt: gambar 1. halaman daftar skl
+
+
+Berikut adalah halaman formulir pemulihan status 
+
+
+ .. figure:: images/form-pemulihan.png
+     :width: 600
+     :alt: gambar 1. halaman details SKL
+
+
+Izin Magang
+--------------------------------------
+
+
+Berikut adalah bagan alur Permohonan Izin Magang
+
+  
+  .. figure:: images/magang-alur.png
+     :width: 600
+     :alt: gambar 1. halaman daftar skl
+
+
+
+Cara Mengajukan Izin Magang
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+ 1. Pilih menu :code:`Izin Magang`. Selanjutnya sistem akan mengarahkan ke halaman daftar pengajuan Izin Magang.
+  
+  .. figure:: images/magang.png
+     :width: 600
+     :alt: gambar 1. halaman daftar magang
+
+
+ 2. Tekan tombol :code:`Pengajuan Magang` untuk melakukan pengajuan Izin Magang. Selanjutnya sistem akan mengarahkan ke halaman formulir Izin Magang. Lengkapi semua kolom isian yang ada. 
+
+  .. figure:: images/form-magang.png
+     :width: 600
+     :alt: gambar 1. halaman formulir magang
+
+
+ 3. Tekan tombol :code:`Ajukan` untuk mengirim/mensubmit pengajuan Izin Magang. Tunggu sampai proses loading pengiriman selesai.
+ 4. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+
+  
+  .. figure:: images/magang-error.png
+     :width: 600
+     :alt: gambar 1. notifikasi error pada saat pengajuan magang
+
+
+ 5. Jika data isian telah sesuai, sistem akan memberikan informasi bahwa pengajuan Izin Magang berhasil dilakukan. Pengajuan Izin Magang yang berhasil dikirimkan akan berganti status menjadi :code:`Menunggu` sampai proses verifikasi pihak Jurusan selesai.
+
  
+ .. figure:: images/magang-ok.png
+    :width: 600
+    :alt: gambar 1. notifikasi sukses pada saat pengajuan magang
 
 
-Layanan akademik tingkat jurusan
+ Dalam pengajuan Izin Magang terdapat 3 jenis status pengajuan, yaitu:
+
+ **Menunggu.**
+ Pengajuan dengan status :code:`Menunggu` berarti pengajuan Izin Magang masih ada dalam tahap verifikasi data oleh pihak Jurusan.
+
+
+ **Ditolak.**
+ Pengajuan dengan status :code:`Ditolak` berarti pengajuan Izin Magang tidak disetujui. Setiap penolakan terhadap layanan yang diajukan Mahasiswa harus menyertakan :code:`Alasan Penolakan` . Mahasiswa dapat melihat alasan penolakan pada detail pengajuan Izin Magang. Selanjutnya jika diperlukan, Mahasiswa dapat merevisi/mengedit ulang pengajuan Izin Magang untuk kembali diajukan ke pihak Jurusan.
+
+
+ **Diterima.**
+ Pengajuan dengan status :code:`Diterima` berarti pengajuan Izin Magang telah disetujui. Selanjutnya Mahasiswa dapat mendownload dan mencetak secara mandiri dokumen Izin Magang melalui halaman detail.
+
+
+.. note::
+    Mahasiswa hanya diperbolehkan untuk mengajukan satu Izin Magang dalam satu waktu.
+
+
+Merevisi pengajuan Izin Magang
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+ 1. Klik tanda :code:`...` pada kolom opsi pada baris pengajuan Izin Magang yang ingin direvisi. Selanjutnya akan muncul 3 pilihan sub menu yaitu Details, Edit dan Hapus.   
+
+  
+  .. figure:: images/magang-opsi.png
+     :width: 600
+     :alt: gambar 1. Opsi menu pada pengajuan Izin Magang
+
+
+ 2. Jika status pengajuan masih :code:`Menunggu` , pilih :code:`Edit` untuk langsung mengedit data pengajuan Izin Magang. 
+ 3. Jika status pengajuan :code:`Ditolak`, tekan :code:`Details` untuk melihat details data. Perhatikan pada bagian :code:`alasan penolakan` . Alasan penolakan biasanya berisi petunjuk mengapa pengajuan Izin Magang Anda ditolak. Selanjutnya pada halaman details ini tekan tombol Edit untuk mengedit data.
+
+  
+ .. figure:: images/skl-details.png
+     :width: 600
+     :alt: gambar 1. halaman details Izin Magang
+
+
+ 4. Perbarui data pada kolom isian yang ingin direvisi. 
+ 5. Tekan tombol menu :code:`Ajukan` untuk kembali mengirimkan pengajaun Izin Magang yang sudah direvisi.
+
+
+
+Izin Penelitian
+--------------------------------------
+
+
+Secara garis besar, proses pengajuan Izin Penelitian serupa dengan pengajaun Izin Magang. Hal yang membedakan hanyalah formulir pengajuan yang harus diisi. Berikut adalah formulir pengajuan Izin Penelitian yang harus diisi.
+
+  
+  .. figure:: images/form-penelitian.png
+     :width: 600
+     :alt: gambar 1. halaman formulir Izin Penelitian
+
+
+
+Layanan Skripsi
 ---------------------------------
 
-Layanan akademik tingkat jurusan terdiri atas beberapa kategori yaitu, pengajuan Judul Skripsi, Ujian Proposal,  Ujian Pendadaran, dan Surat Keterangan Pendamping Ijazah (SKPI). Berikut cara pengajuan layanan akademik di tingkat jurusan
 
-**1. Mengajukan judul skripsi**
+Berikut adalah bagan alur pengajuan layanan skripsi mulai dari pengajuan Judul Skripsi sampai pada penagjaun Ujian Skripsi.
+
+  
+  .. figure:: images/skripsi-alur.png
+     :width: 600
+     :alt: gambar 1. halaman alur skripsi
+
+
+
+Cara Mengajukan Permohonan Judul Skripsi
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
  1. Pada panel menu di sebelah kiri, pilih :code:`Judul Skripsi` untuk membuat pengajuan tentang Judul Skripsi. Pada halaman daftar Judul Skripsi klik tombol :code:`Pengajuan Judul Skripsi` untuk membuat pengajuan baru.
 
   
-  .. figure:: images/judul-list.png
+  .. figure:: images/judul.png
      :width: 600
-     :alt: gambar 1. halaman login
+     :alt: gambar 1. halaman daftat pengajuan judul
 
 
  2. Pada halaman formulir pengajuan Judul Skripsi, isikan data pada kolom isian yang ada.
- 3. Tekan tombol :code:`Ajukan` untuk mensubmit pengajuan Judul Skripsi.
+ 3. Pastikan untuk melengkapi semua dokumen persyaratan yang ada.
+ 4. Tekan tombol :code:`Ajukan` untuk mensubmit pengajuan Judul Skripsi.
 
   
   .. figure:: images/judul-form.png
      :width: 600
-     :alt: gambar 1. halaman login
+     :alt: gambar 1. halaman formulir pengajuan judul
 
 
- 4. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa pengajuan berhasil disubmit. Pengajuan yang berhasil disubmit selanjutnya akan diteruskan ke pihak Staff Jurusan untuk direview.
- 5. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
- 6. Pengajuan Judul Skripsi yang berhasil disubmit akan berstatus  :code:`Menunggu` sampai proses review oleh pihak Jurusan selesai. Status pengajuan Judul Skripsi dapat dilihat dalam Daftar Judul Skripsi pada kolom status. Terdapat 3 status sesuai kondisi masing-masing yaitu menunggu, disetujui dan ditolak. 
+ 5. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa pengajuan berhasil disubmit. Pengajuan yang berhasil disubmit selanjutnya akan diteruskan ke pihak Staff Jurusan untuk direview.
+ 6. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+ 7. Pengajuan Judul Skripsi yang berhasil disubmit akan berstatus  :code:`Menunggu` sampai proses review oleh pihak Jurusan selesai. Status pengajuan Judul Skripsi dapat dilihat dalam Daftar Judul Skripsi pada kolom status. Terdapat 3 status sesuai kondisi masing-masing yaitu menunggu, disetujui dan ditolak. 
 
-  * :code:`Menunggu` berarti pengajuan Judul Skripsi masih dalam proses review dan menunggu hasil review dari pihak Jurusan.
+  :code:`Menunggu` berarti pengajuan Judul Skripsi masih dalam proses review dan menunggu hasil review dari pihak Jurusan.
 
-  * :code:`Disetujui` berarti pengajuan Judul Skripsi telah disetujui oleh pihak Jurusan. Nantinya Mahasiswa akan mendapatkan surat persetujuan yang dapat di unduh dan dicetak secara mandiri.
+  :code:`Disetujui` berarti pengajuan Judul Skripsi telah disetujui oleh pihak Jurusan. Mahasiswa dapat melihat detail nama Pembimbing 1 dan Pembimbing 2 setelah pengajaun disetujui.
 
-  * :code:`Ditolak` berarti pengajuan Judul Skripsi tidak disetujui. Mahasiswa dapat melihat alasan penolakan pada detail pengajuan Judul Skripsi. Selanjutnya jika diperlukan, Mahasiswa dapat merevisi pengajuan Judul Skripsi untuk kembali diajukan ke pihak Jurusan.
+  :code:`Ditolak` berarti pengajuan Judul Skripsi tidak disetujui. Mahasiswa dapat melihat alasan penolakan pada detail pengajuan Judul Skripsi. Selanjutnya jika diperlukan, Mahasiswa dapat merevisi pengajuan Judul Skripsi untuk kembali diajukan ke pihak Jurusan.
 
 
 .. note::
-    Layanan akdemik tingkat Jurusan bersifat sequential (berurutan), dimana antara layanan satu dengan yang lainnya memiliki kesinambungan. Untuk dapat mengajukan Ujian Proposal kita harus terlebih dahulu mendapat persetujuan dari pengajuan Judul Skripsi yang kita buat. Demikian halnya dengan pengajuan Ujian Pendadaran, fitur pengajuan Ujian Pendadaran akan bisa diakses ketika pengajuan Ujian Proposal telah disetujui.  
+    Layanan akdemik tingkat Jurusan bersifat sequential (berurutan), dimana antara layanan satu dengan yang lainnya memiliki kesinambungan. Untuk dapat mengajukan Ujian Proposal kita harus terlebih dahulu mendapat persetujuan dari pengajuan Judul Skripsi yang kita buat. Demikian halnya dengan pengajuan Ujian Skripsi baru bisa dilakukan setelah Mahasiswa menyelesaikan Ujian Proposal/Seminar Proposal. 
 
 
-**2. Mengajukan ujian proposal**
+Cara Mengajukan Bimbingan Skripsi
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+ 1. Pada panel menu di sebelah kiri, pilih :code:`Bimbingan`. Pada halaman daftar Bimbingan klik tombol :code:`Pengajuan Bimbingan` untuk membuat bimbingan baru.
+
+  
+  .. figure:: images/bimbingan.png
+     :width: 600
+     :alt: gambar 1. halaman bimbingan
+
+
+  Pengajuan bimbingan dengan text bold dan memiliki background color menunjukkan bahwa pengajuan tersebut belum mendapat feedback dari Dosen Pembimbing
+
+
+
+ 2. Pada halaman formulir pengajaun Bimbingan, lengkapi data pada kolom isian yang ada. Cermati pada bagian kolom pilih Judul Skripsi. Jika kita belum mengajukan usulan Judul Skripsi atau usulan Judul Skripsi kita belum disetujui, maka kolom pilih Judul Skripsi datanya akan kosong dan kita tidak dapat melakukan pengajuan Bimbingan.
+ 3. Jika kolom Judul Skripsi ada datanya, pilih Judul Skripsi pada kolom tersebut. Secara otomatis kolom Ringkasan Proposal akan terisi sesuai dengan Ringkasan Proposal pada Judul Skripsi yang dipilih.  
+ 4. Tekan tombol :code:`Ajukan` untuk mensubmit pengajuan Bimbingan.
+
+  
+  .. figure:: images/form-bimbingan.png
+     :width: 600
+     :alt: gambar 1. halaman login
+
+
+ 5. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa pengajuan berhasil disubmit. Pengajuan yang berhasil disubmit selanjutnya akan diteruskan ke Dosen Pembimbing untuk direview.
+ 6. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+
+  Feedback bimbingan dari Dosen Pembimbing dapat dilihat pada halaman detail Bimbingan seperti gambar di bawah ini. Tekan tombol :code:`Unduh Dokumen` untuk melihat dokumen feedback yang dilampirkan Dosen Pembimbing. 
+
+
+  .. figure:: images/bimbingan-details.png
+     :width: 600
+     :alt: gambar 1. halaman details bimbingan
+
+
+
+Cara Mengajukan Ujian/Seminar Proposal
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
  1. Pada panel menu di sebelah kiri, pilih :code:`Ujian Proposal`. Pada halaman daftar Ujian Proposal klik tombol :code:`Pendaftaran Ujian Proposal`.
 
   
-  .. figure:: images/proposal-list.png
+  .. figure:: images/proposal.png
      :width: 600
-     :alt: gambar 1. halaman login
+     :alt: gambar 1. halaman proposal
 
 
- 2. Pada halaman formulir pendaftaran Ujian Proposal, isikan data pada kolom isian yang ada. Cermati pada bagian kolom pilih Judul Skripsi. Jika kita belum mengajukan usulan Judul Skripsi atau usulan Judul Skripsi kita belum disetujui, maka kolom pilih Judul Skripsi datanya akan kosong dan kita tidak dapat melakukan pengajuan Ujian Proposal.
- 3. Jika kolom Judul Skripsi ada datanya, pilih Judul Skripsi pada kolom tersebut. Secara otomatis kolom Ringkasan Proposal akan terisi sesuai dengan Ringkasan Proposal pada Judul Skripsi yang dipilih.  
- 4. Tekan tombol :code:`Ajukan` untuk mensubmit pengajuan Judul Skripsi.
+ 2. Pada halaman formulir pendaftaran Ujian Proposal, lengkapi data pada kolom isian yang ada. 
+ 3. Tekan tombol :code:`Ajukan` untuk mensubmit pengajuan Ujian Proposal.
 
   
-  .. figure:: images/proposal-form.png
+  .. figure:: images/form-proposal.png
      :width: 600
-     :alt: gambar 1. halaman login
+     :alt: gambar 1. halaman formulir proposal
 
 
- 5. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa pengajuan berhasil disubmit. Pengajuan yang berhasil disubmit selanjutnya akan diteruskan ke pihak Staff Jurusan untuk direview.
- 6. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+ 4. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa pengajuan berhasil disubmit. Pengajuan yang berhasil disubmit selanjutnya akan diteruskan ke pihak Staff Jurusan untuk diverifikasi.
+ 5. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+
 
 .. note::
-    Ketika pengajuan Ujian proposal telah disetujui, nantinya pihak Staff Jurusan akan menentukan tanggal ujian dan dosen penguji untuk kita. Data tentang dosen penguji ini dapat kita lihat pada halaman detail pada pengajuan Ujian Proposal dengan status :code:`Disetujui`.
-
+    Ketika pengajuan Ujian proposal telah disetujui, nantinya pihak Staff Jurusan akan menentukan tanggal ujian dan Dosen Penguji 1 untuk Mahasiswa. Detail tentang data ini dapat dilihat pada halaman detail pada pengajuan Ujian Proposal dengan status :code:`Disetujui`. Setelah proses Ujian/Seminar Proposal selesai, Mahasiswa juga dapat melihat daftar penilaian Ujian Proposalnya pada halaman detail ini.
+  
 
   
   .. figure:: images/proposal-detail.png
      :width: 600
-     :alt: gambar 1. halaman login
+     :alt: gambar 1. halaman proposal detail
 
 
-**3. Mengajukan ujian skripsi**
 
- 1. Pada panel menu di sebelah kiri, pilih :code:`Ujian Pendadaran`. Pada halaman daftar Ujian Skripsi klik tombol :code:`Pendaftaran Ujian Skripsi`.
-
-  
-  .. figure:: images/skripsi-list.png
-     :width: 600
-     :alt: gambar 1. halaman login
+Cara Mengajukan Ujian Skripsi
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
- 2. Pada halaman formulir pendaftaran Ujian Skripsi, isikan data pada kolom isian yang ada. Cermati pada bagian kolom pilih Judul Skripsi. Jika kita belum mengajukan usulan Ujian Proposal atau usulan Ujian Proposal kita belum disetujui, maka kolom pilih Judul Skripsi datanya akan kosong dan kita tidak dapat melakukan pengajuan Ujian Skripsi.
- 3. Jika kolom Judul Skripsi ada datanya, pilih Judul Skripsi pada kolom tersebut. Secara otomatis kolom Ringkasan Proposal dan Dosen Pembimbing akan terisi secara otomatis, sesuai dengan Ringkasan Proposal dan Dosen Pembimbing pada Judul Skripsi yang dipilih.  
- 4. Tekan tombol :code:`Ajukan` untuk mensubmit pengajuan Judul Skripsi.
+
+ 1. Pada panel menu di sebelah kiri, pilih :code:`Ujian Skripsi`. Pada halaman daftar Ujian Skripsi klik tombol :code:`Pendaftaran Ujian Skripsi`.
 
   
-  .. figure:: images/skripsi-form.png
+  .. figure:: images/skripsi.png
      :width: 600
-     :alt: gambar 1. halaman login
+     :alt: gambar 1. halaman skripsi
 
 
- 5. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa pengajuan berhasil disubmit. Pengajuan yang berhasil disubmit selanjutnya akan diteruskan ke pihak Staff Jurusan untuk direview.
- 6. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+ 2. Pada halaman formulir pendaftaran Ujian Skripsi, lengkapi data pada kolom isian yang ada. Pastikan anda mengupload semua dokumen persyaratan.  
+ 3. Tekan tombol :code:`Ajukan` untuk mensubmit pengajuan Ujian Skripsi.
+
+  
+  .. figure:: images/form-skripsi.png
+     :width: 600
+     :alt: gambar 1. halaman formulir skripsi
+
+
+ 4. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa pengajuan berhasil disubmit. Pengajuan yang berhasil disubmit selanjutnya akan diteruskan ke pihak Staff Jurusan untuk diverifikasi.
+ 5. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+
 
 .. note::
-    Ketika pengajuan Ujian Skripsi telah disetujui, nantinya pihak Staff Jurusan akan menentukan tanggal ujian dan dosen penguji untuk kita. Data tentang dosen penguji ini dapat kita lihat pada halaman detail pada pengajuan Ujian Skripsi dengan status :code:`Disetujui`.
-
-
-**4. Mengajukan SKPI**
-
- 1. Pada panel menu di sebelah kiri, pilih :code:`SKPI`. Pada halaman daftar pengajuan SKPI klik tombol :code:`Pengajuan SKPI`.
-
+    Ketika pengajuan Ujian Skripsi telah disetujui, nantinya pihak Staff Jurusan akan menentukan tanggal ujian dan Dosen Penguji 2 untuk Mahasiswa. Detail tentang data ini dapat dilihat pada halaman detail pada pengajuan Ujian Skripsi dengan status :code:`Disetujui`. Setelah proses Ujian Skripsi selesai, Mahasiswa juga dapat melihat daftar penilaian Ujian Proposalnya pada halaman detail ini.
   
-  .. figure:: images/skpi-list.png
-     :width: 600
-     :alt: gambar 1. halaman login
-
-
- 2. Pada halaman formulir pengajuan SKPI, isikan data pada kolom isian yang ada. 
- 3. Tekan tombol :code:`Ajukan` untuk mensubmit pengajuan SKPI.
-
   
-  .. figure:: images/skpi-form.png
+  .. figure:: images/skripsi-detail.png
      :width: 600
-     :alt: gambar 1. halaman login
+     :alt: gambar 1. halaman proposal detail
 
-
- 4. Jika data isian telah sesuai, sistem akan memberikan informasi pemberitahuan bahwa pengajuan berhasil disubmit. Pengajuan yang berhasil disubmit selanjutnya akan diteruskan ke pihak Staff Jurusan untuk direview.
- 5. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+ 
