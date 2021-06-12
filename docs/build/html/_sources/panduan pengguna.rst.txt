@@ -36,9 +36,20 @@ Berikut ini adalah detail panduan penggunaan untuk layanan-layanan di atas.
 SKPI
 ----------------------------------
 
+
+
+Berikut adalah alur pengajuan SKPI
+
+  
+  .. figure:: images/skpi-alur.png
+     :width: 600
+     :alt: gambar 1. halaman daftar skl
+
+
+
+
 Cara mengajukan SKPI
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 
  1. Mahasiswa melakukan proses otentikasi melalui halaman Login. Gunakan NPM dan PIN CBIS anda sebagai nama pengguna dan kata sandi pada saat Login.
@@ -68,7 +79,7 @@ Cara mengajukan SKPI
 
 
  6. Tekan tombol :code:`Ajukan` untuk mengirim/mensubmit pengajuan SKPI. Tunggu sampai proses loading pengiriman selesai.
- 8. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
+ 7. Jika data isian tidak sesuai, sistem akan memberikan pemberitahuan pesan error. Ikuti petunjuk pada pesan error tersebut untuk mengatasi permasalahan yang ditemui.
 
   
   .. figure:: images/skpi-error.png
@@ -76,7 +87,7 @@ Cara mengajukan SKPI
      :alt: gambar 1. notifikasi error pada saat pengajuan SKPI
 
 
- 7. Jika data isian telah sesuai, sistem akan memberikan informasi bahwa pengajuan SKPI berhasil dilakukan. Pengajuan SKPI yang berhasil dibuat akan berubah statusnya menjadi :code:`Menunggu staff jurusan`. Status pengajuan SKPI dapat dilihat pada kolom status pengajuan.
+ 8. Jika data isian telah sesuai, sistem akan memberikan informasi bahwa pengajuan SKPI berhasil dilakukan. Pengajuan SKPI yang berhasil dibuat akan berubah statusnya menjadi :code:`Menunggu staff jurusan`. Status pengajuan SKPI dapat dilihat pada kolom status pengajuan.
 
 
   
@@ -486,9 +497,9 @@ Cara Mengajukan Ujian/Seminar Proposal
   
 
   
-  .. figure:: images/proposal-detail.png
-     :width: 600
-     :alt: gambar 1. halaman proposal detail
+    .. figure:: images/proposal-detail.png
+       :width: 600
+       :alt: gambar 1. halaman proposal detail
 
 
 
@@ -522,8 +533,21 @@ Cara Mengajukan Ujian Skripsi
     Ketika pengajuan Ujian Skripsi telah disetujui, nantinya pihak Staff Jurusan akan menentukan tanggal ujian dan Dosen Penguji 2 untuk Mahasiswa. Detail tentang data ini dapat dilihat pada halaman detail pada pengajuan Ujian Skripsi dengan status :code:`Disetujui`. Setelah proses Ujian Skripsi selesai, Mahasiswa juga dapat melihat daftar penilaian Ujian Proposalnya pada halaman detail ini.
   
   
-  .. figure:: images/skripsi-detail.png
-     :width: 600
-     :alt: gambar 1. halaman proposal detail
+    .. figure:: images/skripsi-detail.png
+       :width: 600
+       :alt: gambar 1. halaman proposal detail
 
  
+
+Merevisi pengajuan Layanan Skripsi
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+ 1. Pilih menu layanan sesuai dengan jenis layanan yang ingin direvisi.
+ 2. Tekan tanda :code:`...` pada kolom opsi pada baris daftar layanan yang ingin direvisi. Selanjutnya akan muncul 3 pilihan sub menu yaitu Details, Edit dan Hapus.   
+ 3. Jika status pengajuan layanan masih :code:`Menunggu` , pilih :code:`Edit` untuk langsung mengedit data pengajuan. 
+ 4. Jika status pengajuan :code:`Ditolak`, tekan :code:`Details` untuk melihat details data. Perhatikan pada bagian :code:`alasan penolakan` . Alasan penolakan biasanya berisi petunjuk mengapa pengajuan layanan Anda ditolak. Selanjutnya pada halaman details ini tekan tombol Edit untuk mengedit data.
+ 5. Perbarui data pada kolom isian yang ingin direvisi. 
+ 6. Tekan tombol menu :code:`Ajukan` untuk kembali mengirimkan pengajaun layanan yang sudah direvisi.
+
+
