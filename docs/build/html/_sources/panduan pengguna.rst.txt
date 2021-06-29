@@ -7,9 +7,128 @@
 Panduan Pengguna
 *****************
 
-Berikut panduan penggunanaan SIYANMA untuk peran Mahasiswa
 
-Mahasiswa
+1. Wakil Dekan Bidang Akademik
+=================================================
+
+Dalam portal SIYANMA, Wakil Dekan Bidang Akademik dapat mengakses beberapa jenis layanan dengan 3 jenis hak akses yaitu:  full access, approval access, dan read-only access. 
+
+**Full Access**
+ Hak full access memungkinkan Pengguna untuk dapat menambahkan, mengedit dan menghapus data dalam sebuah sistem. Berikut layanan dengan hak full access untuk Wakil Dekan Bidang Akademik di portal SIYANMA
+ 1. Kelola Akun
+
+
+**Approval Access**
+ Approval access memungkinkan Pengguna untuk dapat menyetujui sebuah pengajuan layanan akademik oleh Mahasiswa. Misalnya pengajuan SKPI dan SKL. Berikut adalah layanan dengan hak approval access untuk Wakil Dekan Bidang Akademik di portal SIYANMA
+ 1. Surat Keterangan Lulus
+ 2. Permohonan Cuti
+ 3. Pemulihan Status
+
+**Read-Only Access**
+ Read-Only access memungkinkan Pengguna hanya dapat melihat rekapitulasi data dari sebuah menu atau layanan. Beberapa layanan dengan hak read-only access untuk Staff Fakultas di portal SIYANMA yaitu
+ 1. SKPI
+ 2. Izin Magang
+ 3. Izin Penelitian
+ 4. MBKM
+ 5. Pengajuan Judul Skripsi
+ 6. Pengajuan Bimbingan Skripsi
+ 7. Pengajuan Ujian/Seminar Proposal
+ 8 Pengajuan Ujian Skripsi
+
+
+Ikuti link berikut untuk mengunduh dan membaca detail panduan untuk Wakil Dekan Bidang Akademik. `Baca panduan pengguna bagi Wakil Dekan Bidang Akademik`_
+
+
+.. _Baca panduan pengguna bagi Wakil Dekan Bidang Akademik: https://portal.fisip.upnyk.ac.id/Siyanma-Wadek%20Akademik.pdf
+
+
+
+2. Staff Fakultas
+=================================================
+
+Dalam portal SIYANMA, Staff Fakultas dapat mengakses beberapa jenis layanan dengan 3 jenis hak akses yaitu:  full access, approval access, dan read-only access. 
+
+**Full Access**
+ Hak full access memungkinkan Pengguna untuk dapat menambahkan, mengedit dan menghapus data dalam sebuah sistem. Berikut beberapa layanan dengan hak full access untuk Staff Fakultas di portal SIYANMA
+ 1. Kelola Akun
+ 2. Daftar Dosen 
+ 3. Mata Kuliah 
+ 4. Daftar Konsentrasi
+
+**Approval Access**
+ Approval access memungkinkan Pengguna untuk dapat menyetujui sebuah pengajuan layanan akademik oleh Mahasiswa. Misalnya pengajuan SKPI dan SKL. Berikut adalah layanan dengan hak approval access untuk Staff Fakultas di portal SIYANMA
+ 1. SKPI
+
+**Read-Only Access**
+ Read-Only access memungkinkan Pengguna hanya dapat melihat rekapitulasi data dari sebuah menu atau layanan. Beberapa layanan dengan hak read-only access untuk Staff Fakultas di portal SIYANMA yaitu
+ 1. Surat Keterangan Lulus
+ 2. Permohonan Cuti
+ 3. Pemulihan Status
+ 4. Izin Magang
+ 5. Izin Penelitian
+ 6. MBKM
+ 7. Pengajuan Judul Skripsi
+ 8. Pengajuan Bimbingan Skripsi
+ 9. Pengajuan Ujian Proposal
+ 10 Pengajuan Ujian Skripsi
+
+
+Ikuti link berikut untuk mengunduh dan membaca detail panduan untuk Staff Fakultas. `Baca panduan pengguna bagi Staff Fakultas`_
+
+
+.. _Baca Panduan pengguna bagi Staff Fakultas: https://portal.fisip.upnyk.ac.id/Siyanma-Staff%20Fakultas.pdf
+
+
+
+3. Staff Jurusan
+=================================================
+
+Dalam portal SIYANMA, Staff Jurusan dapat mengakses beberapa jenis layanan dengan 3 jenis hak akses yaitu:  full access, approval access, dan read-only access. 
+
+**Full Access**
+ Hak full access memungkinkan Pengguna untuk dapat menambahkan, mengedit dan menghapus data dalam sebuah sistem. Berikut beberapa layanan dengan hak full access untuk Staff Jurusan di portal SIYANMA
+ 1. Kelola Akun
+
+
+**Approval Access**
+ Approval access memungkinkan Pengguna untuk dapat menyetujui sebuah pengajuan layanan akademik oleh Mahasiswa. Misalnya pengajuan SKPI dan SKL. Berikut adalah layanan dengan hak approval access untuk Staff Jurusan di portal SIYANMA
+ 1. SKPI
+ 2. Izin Magang
+ 3. Izin Penelitian
+ 4. MBKM
+ 5. Pengajuan Judul Skripsi
+ 6. Pengajuan Ujian Proposal
+ 7. Pengajuan Ujian Skripsi
+
+**Read-Only Access**
+ Read-Only access memungkinkan Pengguna hanya dapat melihat rekapitulasi data dari sebuah menu atau layanan. Beberapa layanan dengan hak read-only access untuk Staff Jurusan di portal SIYANMA yaitu
+ 1. Surat Keterangan Lulus
+ 2. Permohonan Cuti
+ 3. Pemulihan Status
+ 4. Bimbingan MBKM
+ 8. Pengajuan Bimbingan Skripsi
+
+Ikuti link berikut untuk mengunduh dan membaca detail panduan untuk Staff Jurusan. `Baca panduan pengguna bagi Staff Jurusan`_
+
+
+.. _Baca Panduan pengguna bagi Staff Jurusan: https://portal.fisip.upnyk.ac.id/Siyanma-Staff%20Jurusan.pdf
+
+
+
+4. Dosen
+=================================================
+
+Dalam portal SIYANMA, Dosen dapat mengakses beberapa jenis layanan, yaitu Kelola Pengguna, Monitoring MBKM, Bimbingan Proposal Skripsi, Ujian Proposal Skripsi, dan Ujian Skripsi. Dalam menu Monitoring MBKM dan Bimbingan Proposal, Dosen yang telah ditetapkan sebagai Dosen Pembimbing dapat memberikan feedback terhadap pengajuan Bimbingan yang diajukan Mahasiswa. Dosen yang ditetapkan sebagai Dosen Pembimbing 1 juga mempunyai peran untuk melakukan verifikasi data pada pengajuan Ujian/Seminar Proposal. Selanjutnya jika data dianggap valid, Dosen Pembimbing 1 dapat menyetujui Ujian Proposal dengan mencantumkan tanggal Ujian.
+
+
+Ikuti link berikut untuk mengunduh dan membaca detail panduan untuk Dosen. `Baca panduan pengguna bagi Dosen`_
+
+
+.. _Baca Panduan pengguna bagi Dosen: https://portal.fisip.upnyk.ac.id/Siyanma-Dosen.pdf
+
+
+
+5. Mahasiswa
 =================================================
 
 Peran utama Mahasiswa dalam SIYANMA adalah untuk mengajukan layanan akademik sesuai dengan kebutuhan. Dalam portal SIYANMA sendiri terdapat 2 jenis layanan akademik yang bisa diakses yaitu, layanan tingkat Fakultas dan layanan tingkat Jurusan.
